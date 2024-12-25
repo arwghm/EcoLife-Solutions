@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E6E6E6;
+    color: #44576D;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #768A96;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #44576D;
+}
+
+/* Header */
+header {
+    background-color: #44576D;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Sections */
+section {
+    margin-top: 40px;
+}
+
+section h2 {
+    color: #768A96;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #44576D;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Product Container */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.product-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.product-item h3 {
+    font-size: 1.5em;
+    color: #44576D;
+    margin-bottom: 15px;
+}
+
+.product-item p {
+    font-size: 1em;
+    color: #768A96;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #44576D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+a {
+    color: #768A96;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin-right: 0;
+    }
+}
+
+
